@@ -1,5 +1,17 @@
 package com.codetest.algo;
 
+/**
+ *
+ * @author Atlas08
+ *
+ *        Find middle element in one traversal also using following algo:
+ *
+ *         Use two pointer fastptr and slowptr and initialize both to head of linkedlist .
+ *         Move fastptr by two nodes and slowptr by one node in each iteration.
+ *         When fastptr reaches end of nodes, the slowptr pointer  will be pointing to middle element.
+ *
+ */
+
 //Java program to find middle of linked list
 public class PrintMiddleElementOfLinkedList {
 	Node head; // head of linked list
